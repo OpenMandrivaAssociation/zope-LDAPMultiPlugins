@@ -2,7 +2,7 @@
 %define product	ldapmultiplugins
 %define name    zope-%{Product}
 %define version 1.5
-%define release %mkrel 1
+%define release %mkrel 2
 
 %define zope_minver	2.7
 %define plone_minver	2.0
@@ -18,7 +18,7 @@ Group:		System/Servers
 URL:		http://www.dataflake.org/software/ldapultiplugins/
 Source:		http://www.dataflake.org/software/ldapmultiplugins/ldapmultiplugins_%{version}/LDAPMultiPlugins-%{version}.tgz
 Requires:	zope >= %{zope_minver}
-Requires:	plone >= %{plone_minver}
+Requires:	zope-Plone >= %{plone_minver}
 BuildArch:  noarch
 BuildRoot:  %{_tmppath}/%{name}-%{version}
 
