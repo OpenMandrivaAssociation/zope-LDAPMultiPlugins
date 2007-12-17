@@ -20,7 +20,6 @@ Source:		http://www.dataflake.org/software/ldapmultiplugins/ldapmultiplugins_%{v
 Requires:	zope >= %{zope_minver}
 Requires:	zope-Plone >= %{plone_minver}
 BuildArch:  noarch
-BuildRoot:  %{_tmppath}/%{name}-%{version}
 
 %description
 The LDAPMultiPlugins provides PluggableAuthService plugins that
